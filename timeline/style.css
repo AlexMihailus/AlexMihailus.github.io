@@ -1,0 +1,280 @@
+
+
+body{
+	background:url(img/bg.png); 
+
+}
+
+.row{
+	height: 1255px; 
+	background-image: url(img/Background.png); 
+	margin-top: 50px; 
+}
+
+.header-sm-12{
+	height: 150px;
+}
+
+.logo-sm-6{
+	float: left;
+	margin: 0 auto;
+}
+	
+
+.time-sm-6{
+	float: right;
+	text-align: left;
+	padding: 50px 50px;
+	color: white;
+	font-family: Arial;
+	font-size: 11px;
+
+}
+
+.navbar {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+.shape5-sm-12{
+	background-color: black;
+	opacity: 0.8;
+	height: 5px;
+}
+
+.calendar-sm-12{
+	background-color: #904c7a;
+	height: 60px;
+}
+
+/*------------------------------------*\
+  ACCORDION
+\*------------------------------------*/
+.accordion{
+  width:auto;
+  overflow:hidden;
+  list-style:none;
+}
+.accordion li{
+  float:left;
+  width:10%;
+  overflow:hidden;
+  height:60px;
+  -moz-transition:width 0.2s ease-out;
+  -webkit-transition:width 0.2s ease-out;
+  -o-transition:width 0.2s ease-out;
+  transition:width 0.2s ease-out;
+  color: #d3b7ca;
+  font-size: 22px;
+}
+
+.accordion li span{font-size: 12px; height: 60px;}
+.accordion li a{color: #d3b7ca; text-decoration:none;}
+
+.accordion div{
+  padding: 20px 0 0 40px;
+  border: 1px solid #6c395b;
+  height:60px;
+}
+
+.accordion:hover li{
+  width:10%;
+}
+
+.accordion li:hover{
+  width:40%;
+  background-color: #6c395b;
+}
+
+.accordion li a:hover{
+  color: white;
+  font-size: 22px;
+}
+
+/*------------------------------------*\
+  ACCORDION
+\*------------------------------------*/
+
+.jumbotron{
+	height: 680px;
+	margin: 0;
+	background-color: white;
+	overflow: auto;
+
+}
+
+.content-sm-8{
+	background-color: #904c7a;
+	height: 375px;
+}
+
+
+.box1{
+	background-image: url(img/con1.png);	
+	width: 220px;
+	height: 120px;
+	//padding-top: 20px;
+	//padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+
+}
+
+.box2{
+	background-image: url(img/con2.png);
+	width: 220px;
+	height: 120px;
+	//padding-top: 20px;
+	//padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+}
+
+.box3{
+	background-image: url(img/con3.png);
+	width: 220px;
+	height: 120px;
+	//padding-top: 20px;
+	//padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+}
+
+.box4{
+	background-image: url(img/con4.png);
+	width: 220px;
+	height: 120px;
+	//padding-top: 20px;
+	//padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+}
+
+
+.caption p{
+	font-size: 13px;
+	font-family: Arial;
+	color: #666666;
+}
+
+.lineC{
+
+	float: left;
+	width: 1050px;
+	height: 1px;
+	background-color: #e5e5e5;
+
+}
+
+.TimeC{
+	//background-color: red;
+	width: 650px;
+	//height: 60px;
+	float: left;
+	font-family: Arial;
+	font-size: 24px;
+	color: #555555;
+}
+
+.c35{
+	width: 250px;
+	//height: 65px;
+	float: right;
+	
+}
+
+
+
+.footer-sm-12{
+	height: auto;
+	//background-color: red;
+	overflow: hidden;
+}
+
+.box5{
+	float: left;
+	//background-color: red;
+	width: 300px;
+	height: 240px;
+	margin: 20px 0;
+	margin-left: 100px;
+	color: white;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.box6{
+	float: left;
+	//background-color: red;
+	width: 300px;
+	height: 240px;
+	margin: 20px 20px;
+	color: white;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.box7{
+	float: left;
+	//background-color: red;
+	width: 300px;
+	height: 240px;
+	margin: 20px 20px;
+	color: white;
+	font-family: Arial;
+	
+}
+
+.form-horizontal{
+	height: 220px;
+	background-image: url(img/Get.png);
+	padding: 5px;
+}
+
+.line{
+	margin-left: 100px;
+	//margin-top: 20px;
+	float: left;
+	width: 960px;
+	height: 1px;
+	background-color: #837c73;
+
+}
+
+
+.Copyrights{
+	overflow: hidden;
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+	width: 960px;
+	height: 20px;
+	color: white;
+	font-family: Arial;
+	font-size: 11px;
+	//background-color: #837c73;
+
+}
+
+.Company{
+	float: left;
+}
+
+.Theme{
+	float: right;
+}
+
+
+
+
+
