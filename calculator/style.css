@@ -1,0 +1,56 @@
+.calculator{
+    width: 250px;
+    height: 300px;
+    margin: 100px auto 0;
+    text-align: center;
+    background-color: #DDE7F3;
+    box-shadow: 0 0 10px grey;
+}
+
+.cal_form{
+    height: 100%;
+    padding: 20px;
+}
+.cal_buttons{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cal_display {
+    margin: 0 0 20px;
+    width: 100%;
+    padding: 4px 2px;
+    text-align: right;
+    font: 700 22px/1.5 Arial;
+
+}
+
+.cal_button{
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cal_equally{
+    width: 84px;
+    height: 42px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cal_sqrt{
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.backspace{
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
