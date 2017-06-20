@@ -9,9 +9,14 @@ $(document).ready(function () {
 
    
     Button.on('click', function () {
+        if (Display.val() == 'NaN' | Display.val() == 'Infinity') { Display.val('');}
+       
         if (Display.val().length < 16) {
         Display.val(Display.val() + $(this).attr('value') );
+     
         }
+
+        
     });
 
     Clear.on('click', function () {
@@ -19,14 +24,16 @@ $(document).ready(function () {
     });
 
     Equally.on('click', function () {
+        if (Display.val() == 'NaN' | Display.val() == 'Infinity') { Display.val('');}
         Display.val( eval( Display.val() ) );
     });
 
      Sqrt.on('click', function () {
-        Display.val( Math.sqrt( Display.val() ) );
+        Display.val( Math.sqrt( Display.val()) );
     });
 
     Backspace.on('click', function () {
+        if (Display.val() == 'NaN' | Display.val() == 'Infinity') { Display.val('');}
         Display.val( Display.val().substring(0, Display.val().length-1) );
     });
 
