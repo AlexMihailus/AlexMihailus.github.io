@@ -105,7 +105,7 @@ header {
   margin-top: 50px; }
 
 .Services {
-  padding: 5% 10% 0 10%; }
+  padding-top: 85px; }
 
 .thumbnail {
   border: 0; }
@@ -117,7 +117,8 @@ header {
 .thumbnail h3 {
   font-family: "RalewaySemiBold", sans-serif;
   font-size: 22px;
-  color: #555555; }
+  color: #555555;
+  text-align: center; }
 
 .thumbnail p {
   font-family: "MontserratLight", sans-serif;
@@ -140,5 +141,51 @@ header {
   font-family: "MontserratLight", sans-serif;
   font-size: 16px;
   color: #8c8c8c; }
+
+.Background {
+  height: 620px; }
+
+.browser-left {
+  position: absolute;
+  top: 112px; }
+
+.browser-center {
+  position: absolute;
+  top: 30px;
+  left: 230px;
+  z-index: 5; }
+
+.browser-right {
+  position: absolute;
+  top: 112px;
+  right: 0; }
+
+.Text-Boxes {
+  width: 100%;
+  background: linear-gradient(to right, #211b19, #4e3327);
+  height: 150px; }
+
+.Text-Boxes h3 {
+  font-family: "RalewayRegular", sans-serif;
+  font-size: 28px;
+  color: white;
+  padding: 30px 0 0 30px; }
+
+.Text-Boxes p {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 18px;
+  color: #615855;
+  padding: 0 0 0 30px; }
+
+.Text-Boxes button {
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  border: none;
+  box-shadow: 0 3px #736357;
+  font-family: "RalewayExtraBold", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
