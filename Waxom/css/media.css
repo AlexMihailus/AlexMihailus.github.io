@@ -5,13 +5,72 @@
 
 }
 
+
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	
+	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+.slogan {
+  padding-top: 150px; }
+
+.slogan span {
+  font-family: "RalewayMedium", sans-serif;
+  font-size: 22px; }
+
+.slogan h1 {
+  font-family: "RalewayExtraBold", sans-serif;
+  font-size: 24px;
+  margin-top: 0; }
+
+.slogan {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 14px; }
+
+.slogan button {
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  border: none;
+  box-shadow: 0 3px #736357;
+  font-family: "RalewayExtraBold", sans-serif;
+  font-size: 14px;
+  margin-top: 10px; }
+
+  .browser-left {
+  position: absolute;
+  top: 0; }
+
+.browser-center {
+  position: absolute;
+  top:0 ;
+  left: 0;
+  z-index: 5; }
+
+.browser-right {
+  position: absolute;
+  top:0;
+  right: 0; }
+
+.Project .thumbnail h3 {
+  font-family: "RalewayMedium", sans-serif;
+  font-size: 14px;
+  color: #c7b299;
+  text-align: center; }
+
+.Project .thumbnail p {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 10px;
+  color: #d1d1d1;
+  text-align: center; }
+
+
+
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -39,11 +98,101 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+.slogan {
+  visibility: hidden;
+  }
+
+
+.Project .thumbnail h3 {
+  font-family: "RalewayMedium", sans-serif;
+  font-size: 14px;
+  color: #c7b299;
+  text-align: center; }
+
+.Project .thumbnail p {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 10px;
+  color: #d1d1d1;
+  text-align: center; }
+
+.Text-Boxes h3 {
+  font-family: "RalewayRegular", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 30px 0 0 5px; }
+
+.Text-Boxes p {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 12px;
+  color: #615855;
+  padding: 0 0 0 5px; }
+
+.Text-Boxes button {
+  width: 100px;
+  height: 50px;
+  background-color: #998675;
+  border: none;
+  box-shadow: 0 3px #736357;
+  font-family: "RalewayExtraBold", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  color: white; }
+
+
+
+.nav-pills {
+  margin: 0 auto;
+  padding: 35px;
+  width: 350px; }
+
+.nav-pills > li > a {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 12px;
+  color: #8c8c8c; }
+
+.iPhone img {
+  visibility: hidden; }
+
+.Excellent {
+  height: 696px; }
+
+.Excellent h3 {
+  padding-top: 0;
+  font-family: "RalewaySemiBold", sans-serif;
+  font-size: 18px;
+  color: #555555; }
+
+.Excellent p {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 12px;
+  color: #8c8c8c; }
+
+.Excellent ul li {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 12px;
+  color: #8c8c8c;
+  list-style-type: none; }
+
+.Project2 {
+  display: none;}
+
 
 }
 
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
+.menu ul li {
+  display: inline-block;
+  padding-top: 0; }
+
+.menu ul li a {
+  display: block;
+  font-family: "MontserratLight", sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-right: 5px; }
 
 }
 
@@ -70,7 +219,12 @@
 
 }
 
- /* Large Devices, Wide Screens */
+@media (min-width: 992px) {
+
+}
+
+
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }
